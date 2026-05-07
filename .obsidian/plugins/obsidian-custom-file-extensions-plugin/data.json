@@ -1,0 +1,30 @@
+{
+  "types": {
+    "markdown": [
+      "",
+      "md",
+      "txt",
+      "css",
+      "yaml",
+      "yml",
+      "json"
+    ]
+  },
+  "configIsValid": true,
+  "errors": {},
+  "allowMdOverride": false,
+  "mobileSettings": {
+    "enabled": false,
+    "types": {
+      "markdown": [
+        "",
+        "md",
+        "txt",
+        "css",
+        "yaml",
+        "yml",
+        "json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+---
+tags: [html, Maya_API_Dev]
+---
+
+# 🌐 MayaAPI - Transform Data.html
+
+> **一句话总结**：Maya API 变换数据详解
+
+## 🔗 本地文件
+- [MayaAPI - Transform Data.html](file:///Y:/GGbommer/Lib/Http/MayaAPI%20-%20Transform%20Data.html)
+- **文件名称**：MayaAPI - Transform Data.html
+- **资源类型**：html
+- **归属分类**：Maya_API_Dev
+- **本地路径**：[[MayaAPI - Transform Data.html]]
+
+> *注：本页面为 AI 深入解析本地 Lib 库后生成的资源智能索引。*
+
+
+---
+### 📄 离线网页正文（摘要/摘录）
+
+MayaAPI - Transform Data
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Accessing Transform Data [[MEL](https://nccastaff.bournemouth.ac.uk/jmacey/OldWeb/RobTheBloke/www/mel/DATA_nxform.html)]       |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | |  | Finding all Transforms  in a Scene  Transforms are probably the most important of data types in the maya API. An object is not visible in the scene unless it has a transform to place it correctly.    The code listing on the right will output all names of transform nodes in maya.Whilst this at first may seem sensible, it has the disadvantage of usually adding in redundant data.    A better idea is to build up a list of important transforms by querying the parents of the important shapes in your scene (ie, meshes, lights etc). This method should ensure you export a more compact data set. One potential issue arising is that each object may have multiple parents. This is the way in which instancing is supported. |  | #include<maya/MFnTransform.h>  #include<maya/MItDag.h>  // create an iterator to go through all transforms  MItDag it(MItDag::DepthFirst, MFn::kTransform);  while(!it.isDone())  {   |  |  |  |  | | --- | --- | --- | --- | |  | // attach the function set to the object  MFnTransform fn(it.item());  // only want non-history items  if( !fn.isIntermediateObject() ) {   |  |  | | --- | --- | |  | // print mesh name  cout<<"Transform "<< fn.name().asChar() <<endl;  // described in the sections below  outputTransformData(it.item());  outputParentingInfo(it.item()); |   }  // get next transform  it.next(); |  } |       |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | |  | Transformation Data    Maya transform data can be accessed via the MFnTransform class. This will allow you to access the scale, rotation and translation data.    When a transform is an IK joint then you will probably also want the orientation of the joint.    The example i present here will actually output Quaternion rotation values. If you wish to get the rotation data in euler angles (why?) then change the JointOrient and Rotation variables to be MEulerRotation types. The writing code can then ignore the 'w' parameter, and just output x,y,z rotation values. |  | #include<maya/MFnTransform.h>  #include<maya/MFnIkJoint.h>  #include<maya/MQuaternion.h>  #include<maya/MEulerRotation.h>  void outputTransformData(MObject& obj)  {   |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | |  | // attach the function set to the object  MFnTransform fn(obj);  // If you want the transform data as a matrix  // then you can do something like this. I personally  // am more interested in getting quaternions....  MMatrix mat = fn.transformation().asMatrix();  MQuaternion JointOrient(0,0,0,1);  MQuaternion Rotation(0,0,0,1);  double Scale[3];  // get the transforms local translation   MVector Translation = fn.translation();  // get the transforms scale  fn.getScale(Scale);  // get the transforms rotation as a quaternion  fn.getRotation(Rotation);  //if the transform is an IK joint then it will contain  //a joint orientation as well as a rotation  if( fn.object().hasFn(MFn::kJoint) )  {   |  |  | | --- | --- | |  | MFnIkJoint fnJoint(fn.object());  fnJoint.getOrientation(JointOrient); |   }   |  |  | | --- | --- | | cout | << "scale "   << Scale[0] << " "   << Scale[1] << " "  << Scale[2] << endl; |  |  |  | | --- | --- | | cout | << "translation "   << Translation.x << " "   << Translation.y << " "  << Translation.z << endl; |  |  |  | | --- | --- | | cout | << "rotation "   << Rotation.x << " "   << Rotation.y << " "   << Rotation.z << " "  << Rotation.w << endl; |  |  |  | | --- | --- | | cout | << "jointOrient "   << JointOrient.x << " "   << JointOrient.y << " "   << JointOrient.z << " "  << JointOrient.w << endl; | |  } |      |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | |  | Accessing Parenting Information  Each transform may have a number of child nodes. These will either be other transforms or actual scene objects (meshes, lights, camera's etc).  There are four main functions you can use to extract the hierarchy data, parentCount, parent, childCount and child.  The reason the transform can have multiple parents is to enable support for instancing. ie, a geometry instance is simply a piece of geometry that is parented under two transforms.      This function will actually work for any shape or transform node within
+
+... (原文过长，已截断)

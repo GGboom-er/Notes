@@ -1,0 +1,318 @@
+{
+  "main": {
+    "id": "0477b7d17aca0ca0",
+    "type": "split",
+    "children": [
+      {
+        "id": "18f24a21416f4076",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12d381d21c72ab10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/AI_CG/2. 空间网格映射与变形转移算法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2. 空间网格映射与变形转移算法"
+            }
+          },
+          {
+            "id": "529b196bcb05a3e1",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/mickare/Deformation-Transfer-for-Triangle-Meshes",
+                "title": "GitHub - mickare/Deformation-Transfer-for-Triangle-Meshes: A Python implementation of the paper \"Deformation Transfer for Triangle Meshes\" with 3D views in the browser. · GitHub",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - mickare/Deformation-Transfer-for-Triangle-Meshes: A Python implementation of the paper \"Deformation Transfer for Triangle Meshes\" with 3D views in the browser. · GitHub"
+            }
+          },
+          {
+            "id": "bf531622191401e2",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/KAIST-Visual-AI-Group/APAP",
+                "title": "GitHub - KAIST-Visual-AI-Group/APAP: The reference implementation of As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors (CVPR 2024). · GitHub",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - KAIST-Visual-AI-Group/APAP: The reference implementation of As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors (CVPR 2024). · GitHub"
+            }
+          },
+          {
+            "id": "bc674b08b43aa067",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/iveevi/ngf",
+                "title": "GitHub - iveevi/ngf: Source code for the SIGGRAPH 2024 conference paper \"Neural Geometry Fields for Meshes\" · GitHub",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - iveevi/ngf: Source code for the SIGGRAPH 2024 conference paper \"Neural Geometry Fields for Meshes\" · GitHub"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "445e0d9677804d88",
+    "type": "split",
+    "children": [
+      {
+        "id": "376560e67b640bf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c001a77f61a2bd59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6d70efcc7a99d111",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "7c8a1767301ea06a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 339.5
+  },
+  "right": {
+    "id": "7c6e048684854d63",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b03fdadf7b3943f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77e2a2ebd0435efd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sources/Library/HTML/🔖 参考 & 其他（5篇）/迪士尼电影制作过程.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "迪士尼电影制作过程 的反向链接列表"
+            }
+          },
+          {
+            "id": "bb6b70742e9efb3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Atlas/CGI技术全景.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "CGI技术全景 的出链列表"
+            }
+          },
+          {
+            "id": "b966a6966fa23e42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "a55c6d04c8df300f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sources/Library/HTML/🔖 参考 & 其他（5篇）/迪士尼电影制作过程.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "迪士尼电影制作过程 的大纲"
+            }
+          },
+          {
+            "id": "7a1a5eed47e0f0ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "36cc19ffc03a3343",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {
+                "initialAgentId": "gemini-cli"
+              },
+              "icon": "bot-message-square",
+              "title": "Agent client"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 724.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "code-files:Create Code File": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "obsidian-git:Open Git source control": false,
+      "agent-client:Open agent client": false
+    }
+  },
+  "active": "12d381d21c72ab10",
+  "lastOpenFiles": [
+    "Knowledge/AI_CG/1. 视频动捕开源方案.md",
+    "Knowledge/AI_CG/2. 空间网格映射与变形转移算法.md",
+    "README.md",
+    "Knowledge/AI_CG",
+    "🏠 主页.md",
+    "Templates/技术笔记模板.md",
+    "Sources/Library/PDF/Maya_Tech_Docs/maya_api_whitepaper.md",
+    "Sources/📚 PDF文献库索引.md",
+    "Atlas/CGI技术全景.md",
+    "Knowledge/Graphics/计算机图形学/0. 计算机图形学 - 目录.md",
+    "Knowledge/Graphics/计算机图形学/6. 图形学中常用的数据结构.md",
+    "Knowledge/Graphics/计算机图形学/1. 实时图形渲染管线.md",
+    "Knowledge/UE/MetaHuman/RigLogic调整流程---基于骨骼调整的捏脸方案.canvas",
+    "Templates/流程图模板.md",
+    "Templates/时序图模板.md",
+    "Templates/思维导图模板.md",
+    "Sources/Library/HTML/Maya_API_Dev/观看笔记 - AboutCG - Maya API 编程教学 for TD _ 智伤帝的个人博客.md",
+    "Sources/Library/PDF/Character_Animation/Maya角色绑定火星课堂.md",
+    "Scripts/classify_library.py",
+    "temp_list.txt",
+    "Tools/Maya_Rigging/skinClusterWeight.md",
+    "Tools/DCC_Assets/tbx绑定规范.md",
+    "Sources/📚 Maya学习资料.md",
+    "Sources/Library/HTML/Ref_Others/Maya summary - Rodolphe Vaillants homepage.md",
+    "Sources/🌐 Web文章索引.md",
+    "Sources/📚 第三方工具库.md",
+    "Tools/Standalone_Apps/Maya 2025.3 Win.md",
+    "Sources/🖼️ 参考资源.md",
+    "Sources/📹 课程索引.md",
+    "Sources/Library/PDF/Maya_Tech_Docs/Maya Python游戏与影视编程指南.md",
+    "Scripts/fix_links.py",
+    "Scripts/extract_content.py",
+    "Inbox/未命名.canvas",
+    "Scripts/fix_html_links.py",
+    "Scripts",
+    "fix_html_links.py",
+    "classify_library.py",
+    "未命名.canvas",
+    "Knowledge/CS/设计模式/未命名.base",
+    "Knowledge/UE/MetaHuman/RigLogic运行时流程.canvas",
+    "Knowledge/UE/MetaHuman/attachments/Pic_007.png",
+    "Knowledge/UE/MetaHuman/attachments/Pic_006.png",
+    "Knowledge/UE/MetaHuman/attachments/Pic_005.png",
+    "Knowledge/UE/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas",
+    "Knowledge/UE/MetaHuman/DNA数据结构解析.canvas",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_203.png",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_202.png",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_201.png",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_200.png",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_199.png",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_198.png",
+    "Knowledge/Math/Foundation/3D数学基础/attachments/Pic_197.png",
+    "Knowledge/UE/Animation/SkeletalMesh/12. 骨骼动画更新流程.canvas",
+    "UnrealEngine/MetaHuman/DNA数据结构解析.canvas",
+    "UnrealEngine/MetaHuman/RigLogic运行时流程.canvas",
+    "UnrealEngine/MetaHuman/RigLogic调整流程---基于控制调整的捏脸方案.canvas"
+  ]
+}

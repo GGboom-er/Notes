@@ -1,0 +1,111 @@
+{
+  "claude": {
+    "id": "claude-code-acp",
+    "displayName": "Claude Code",
+    "apiKey": "",
+    "command": "claude-agent-acp",
+    "args": [],
+    "env": []
+  },
+  "codex": {
+    "id": "codex-acp",
+    "displayName": "Codex",
+    "apiKey": "",
+    "command": "codex-acp",
+    "args": [],
+    "env": []
+  },
+  "gemini": {
+    "id": "gemini-cli",
+    "displayName": "Gemini CLI",
+    "apiKey": "",
+    "command": "C:\\Users\\yuweiming\\AppData\\Roaming\\npm\\gemini",
+    "args": [
+      "--experimental-acp"
+    ],
+    "env": []
+  },
+  "customAgents": [],
+  "defaultAgentId": "gemini-cli",
+  "autoAllowPermissions": false,
+  "autoMentionActiveNote": true,
+  "enableSystemNotifications": true,
+  "debugMode": false,
+  "nodePath": "C:\\Program Files\\nodejs\\node.exe",
+  "exportSettings": {
+    "defaultFolder": "Agent Client",
+    "filenameTemplate": "agent_client_{date}_{time}",
+    "autoExportOnNewChat": false,
+    "autoExportOnCloseChat": false,
+    "openFileAfterExport": true,
+    "includeImages": true,
+    "imageLocation": "obsidian",
+    "imageCustomFolder": "Agent Client",
+    "frontmatterTag": "agent-client"
+  },
+  "windowsWslMode": false,
+  "sendMessageShortcut": "enter",
+  "chatViewLocation": "right-tab",
+  "displaySettings": {
+    "autoCollapseDiffs": false,
+    "diffCollapseThreshold": 10,
+    "maxNoteLength": 10000,
+    "maxSelectionLength": 10000,
+    "showEmojis": true,
+    "fontSize": null
+  },
+  "savedSessions": [
+    {
+      "sessionId": "fb47cbf0-77ef-4306-8d25-cd934403c22e",
+      "agentId": "gemini-cli",
+      "cwd": "Y:\\GGbommer\\scripts\\Notes",
+      "title": "详细看看我们的知识库，总结并且分析一下，接下来我如何去扩展知识库",
+      "createdAt": "2026-04-30T09:05:03.260Z",
+      "updatedAt": "2026-04-30T09:05:03.260Z"
+    },
+    {
+      "sessionId": "73a85cc9-2607-4336-98de-471f8031b023",
+      "agentId": "gemini-cli",
+      "cwd": "Y:\\GGbommer\\scripts\\Notes",
+      "title": "我觉得你可以深入审查我们的知识库，然后去掉重复和归类整理资料以及散落文件。你需要深入去查看信息而不是...",
+      "createdAt": "2026-04-28T07:02:06.280Z",
+      "updatedAt": "2026-04-28T07:02:06.280Z"
+    },
+    {
+      "sessionId": "a387ae46-f2a0-4a6c-8141-53b423ba4b82",
+      "agentId": "gemini-cli",
+      "cwd": "Y:\\GGbommer\\scripts\\Notes",
+      "title": "看看我们的知识库有没有需要整理并且更新的",
+      "createdAt": "2026-04-27T05:04:40.108Z",
+      "updatedAt": "2026-04-27T05:04:40.108Z"
+    },
+    {
+      "sessionId": "18a97309-687d-481d-b069-80828a073af7",
+      "agentId": "gemini-cli",
+      "cwd": "Y:\\GGbommer\\scripts\\Notes",
+      "title": "为啥没有语法高亮",
+      "createdAt": "2026-04-27T03:41:43.806Z",
+      "updatedAt": "2026-04-27T03:41:43.806Z"
+    },
+    {
+      "sessionId": "7a3b61ca-b2a0-42e3-96d1-d3649fe92fca",
+      "agentId": "gemini-cli",
+      "cwd": "Y:\\GGbommer\\scripts\\Notes",
+      "title": "?",
+      "createdAt": "2026-04-27T03:22:28.295Z",
+      "updatedAt": "2026-04-27T03:22:28.295Z"
+    }
+  ],
+  "lastUsedModels": {},
+  "lastUsedModes": {
+    "gemini-cli": "yolo"
+  },
+  "enableFloatingChat": false,
+  "floatingButtonImage": "",
+  "floatingWindowSize": {
+    "width": 400,
+    "height": 500
+  },
+  "floatingWindowPosition": null,
+  "floatingButtonPosition": null
+}

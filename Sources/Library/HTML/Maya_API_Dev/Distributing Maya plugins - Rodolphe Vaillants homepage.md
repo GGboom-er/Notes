@@ -1,0 +1,130 @@
+---
+tags: [html, Maya_API_Dev]
+---
+
+# 🌐 Distributing Maya plugins - Rodolphe Vaillant's homepage.html
+
+> **一句话总结**：自动分类：基于标题的初步推断
+
+## 🔗 本地文件
+- [Distributing Maya plugins - Rodolphe Vaillant's homepage.html](file:///Y:/GGbommer/Lib/Http/Distributing%20Maya%20plugins%20-%20Rodolphe%20Vaillant's%20homepage.html)
+- **文件名称**：Distributing Maya plugins - Rodolphe Vaillant's homepage.html
+- **资源类型**：html
+- **归属分类**：Maya API 开发
+- **本地路径**：[[Distributing Maya plugins - Rodolphe Vaillant's homepage.html]]
+
+> *注：本页面为 AI 深入解析本地 Lib 库后生成的资源智能索引。*
+
+
+---
+### 📄 离线网页正文（摘要/摘录）
+
+Distributing Maya plugins - Rodolphe Vaillant's homepage
+
+|  |  |
+| --- | --- |
+| [Rodolphe Vaillant's homepage](/)Research, teaching and more... |  |
+
+* [Bio](/page/home "About me")
+* [Tutorials](/page/teaching "Site map / Table of content")
+* [Links](/page/links "Bookmarks / pinterests")
+* [Blog](/weblog/weblog "Somewhat cleaner articles")
+* [Jumble](/weblog/jumble "Draft notes")
+
+# [Distributing Maya plugins](/entry/97/distributing-maya-plugins)
+
+How to pack and ship a Maya plugin - 07/2018 - #[Maya](/category/maya)
+
+![](/images/2018-07/maya_distribute_banner.jpg)
+
+  
+I will discuss various ways you can ship a Maya plugin to users.
+
+Note that ultimately the methods I present below can be automated and wrapped with scripts or installers (.msi etc.) You can see my [git repository](https://github.com/silenthell/Maya-plugin-CPack-template) to get a template project that demonstrate how to generate a windows installer for Maya plugin with CMake and CPack.
+
+A plugin usually contains:
+
+* .mll binary files
+* icons
+* mel/python scripts
+
+You need to gather all those files and tell Maya where to find them. To this end you will need to define the following Maya environment variables:
+
+```
+MAYA_SHELF_PATH=C:\installation_folder\prefs\shelves // <- Must be defined first
+PYTHONPATH=C:\installation_folder\scripts 
+MAYA_SCRIPT_PATH=C:\installation_folder\scripts 
+MAYA_PLUG_IN_PATH=C:\installation_folder\plug-ins 
+XBMLANGPATH=C:\installation_folder\prefs\icons
+```
+
+Defining those variables can be done as follows:
+
+* *OS variables*: update the global system environment variables
+* *Maya.mel*: edit [[Maya.mel]]
+* *Custom shortcut*: launch Maya with a .bat script to setups local variables.
+* *Modules*: add .mod in [[modules]]
+* *Application plugin*: add PackageContents.xml in [[plugin_name]]
+
+Each method as its pros and cons which I will detail below. Personally my preference goes to the Application Plugin method which I find the most robust. This is also the official method to provide plugins through the [autodesk app store](https://apps.autodesk.com/ACD/en/Home/Index) (see also [developer guidelines](https://www.autodesk.com/developer-network/app-store/maya#)). Finally this is the method I use in my [template project](https://github.com/silenthell/Maya-plugin-CPack-template) demonstrating how to ship a Maya plugin with CMake/CPack.
+
+## Using system environment variable
+
+Directly edit the user's system environment variable with a bat script to add the needed variables (MAYA\_SHELF\_PATH etc.)  
+  
+Pros
+
+* shelves will automatically and properly load for every versions of Maya.
+
+Cons
+
+* hard to maintain a script that robustly update those variables (especially under Windows).
+* hard to clean up when uninstalling
+* users might not want you to mess with their system environment in the first place.
+
+I don't recommend at all...
+
+## Using Maya.env
+
+You directly add a file [Maya.env](/images/2018-07/maya.env.txt) in  [[version]] . Pros and cons are almost identical to the above method.
+
+Pros
+
+* shelves will automatically and properly load for every versions of Maya.
+* Slightly safer than editing the global OS environment variables.
+
+Cons
+
+* hard to maintain a script that robustly update those variables and do the clean up when uninstalling.
+* users might not want you to mess with their local Maya.env in the first place.
+
+If you're testing out your plugin on your local machine it's a good solution, but I don't recommend for shipping.
+
+## Using a custom shortcut
+
+Start Maya with a [special script](/images/2018-07/launch_maya.bat.txt) that loads the correct environment variables! You can also have a shortcut linking to `%COMSPEC% /C start /d Contents\ launch.bat 2018` in order to launch your script.
+
+Pros
+
+* shelves and whatknot, everything will load and work properly
+* not messing with anything this is the solution where you least tamper with the user files and environment.
+
+Cons
+
+* User needs to understand why using the standard shortcut won't load his plugins.
+
+## Using the module file
+
+Just add a [.mod file](/images/2018-07/plugin_name.mod) in the user directory [[modules]]. See the [Maya documentation](http://help.autodesk.com/view/MAYAUL/2018/ENU/?guid=__files_GUID_130A3F57_2A5D_4E56_B066_6B86F68EEA22_htm) to understand this file format. The shelves won't load you will need to include a [userSetup.py](/images/2018-07/usersetup.py) in your script folder (PYTHONPATH)
+
+Pros
+
+* not messing with existing user files.
+* everything can be neatly centralized in one place
+
+Cons
+
+* The .mod file needs to be generated at installation time to know the plugin location. (or you can lock the installation to be in the user directory and user relatives paths
+* Shelves won't load with MAYA\_SHELF\_PATH you need to run a script manually (userSetup.py will be execute automat
+
+... (原文过长，已截断)

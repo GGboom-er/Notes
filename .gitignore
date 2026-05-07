@@ -1,0 +1,34 @@
+# Obsidian 本地缓存（每台机器不同，不同步）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# 回收站
+.trash/
+
+# 附件大文件（截图/视频/数据不同步）
+附件/*.mp4
+附件/*.mov
+附件/*.avi
+附件/*.mkv
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.mkv
+**/*.dna
+**/*.json
+
+# 特例：允许保留特定的 JSON 配置（如果有需要，比如知识库本身的配置文件可以豁免，但不豁免 attachments 里的）
+!.obsidian/**/*.json
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini
+
+# macOS 系统文件
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
+*.log

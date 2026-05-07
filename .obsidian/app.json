@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "./附件",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "showUnsupportedFiles": true,
+  "livePreview": true,
+  "spellcheck": false,
+  "showIndentGuide": true,
+  "showLineNumber": true,
+  "readableLineLength": true
+}
