@@ -32,45 +32,45 @@
             }
           },
           {
-            "id": "529b196bcb05a3e1",
+            "id": "d3150f85d9c50b8a",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://github.com/mickare/Deformation-Transfer-for-Triangle-Meshes",
-                "title": "GitHub - mickare/Deformation-Transfer-for-Triangle-Meshes: A Python implementation of the paper \"Deformation Transfer for Triangle Meshes\" with 3D views in the browser. · GitHub",
+                "url": "https://github.com/Forrest-110/FastMAC",
+                "title": "GitHub - Forrest-110/FastMAC: Source code of CVPR 2024 paper 'FastMAC: Stochastic Spectral Sampling of Correspondence Graph' · GitHub",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "GitHub - mickare/Deformation-Transfer-for-Triangle-Meshes: A Python implementation of the paper \"Deformation Transfer for Triangle Meshes\" with 3D views in the browser. · GitHub"
+              "title": "GitHub - Forrest-110/FastMAC: Source code of CVPR 2024 paper 'FastMAC: Stochastic Spectral Sampling of Correspondence Graph' · GitHub"
             }
           },
           {
-            "id": "bf531622191401e2",
+            "id": "c2b7b3cb4abe234a",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://github.com/KAIST-Visual-AI-Group/APAP",
-                "title": "GitHub - KAIST-Visual-AI-Group/APAP: The reference implementation of As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors (CVPR 2024). · GitHub",
+                "url": "https://github.com/jiahao620/gaussreg",
+                "title": "GitHub - Jiahao620/gaussreg: A project page template for academic papers. Demo at https://eliahuhorwitz.github.io/Academic-project-page-template/ · GitHub",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "GitHub - KAIST-Visual-AI-Group/APAP: The reference implementation of As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors (CVPR 2024). · GitHub"
+              "title": "GitHub - Jiahao620/gaussreg: A project page template for academic papers. Demo at https://eliahuhorwitz.github.io/Academic-project-page-template/ · GitHub"
             }
           },
           {
-            "id": "bc674b08b43aa067",
+            "id": "8a7a09c902bb9842",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://github.com/iveevi/ngf",
-                "title": "GitHub - iveevi/ngf: Source code for the SIGGRAPH 2024 conference paper \"Neural Geometry Fields for Meshes\" · GitHub",
+                "url": "https://github.com/mattiaspaul/fastforward",
+                "title": "GitHub - mattiaspaul/fastforward: accepted MIDL 2025 paper on forward splatting for 3D deformable registration new SOTA for PVT1010-COPD · GitHub",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "GitHub - iveevi/ngf: Source code for the SIGGRAPH 2024 conference paper \"Neural Geometry Fields for Meshes\" · GitHub"
+              "title": "GitHub - mattiaspaul/fastforward: accepted MIDL 2025 paper on forward splatting for 3D deformable registration new SOTA for PVT1010-COPD · GitHub"
             }
           }
         ]
@@ -258,8 +258,8 @@
   },
   "active": "12d381d21c72ab10",
   "lastOpenFiles": [
-    "Knowledge/AI_CG/1. 视频动捕开源方案.md",
     "Knowledge/AI_CG/2. 空间网格映射与变形转移算法.md",
+    "Knowledge/AI_CG/1. 视频动捕开源方案.md",
     "README.md",
     "Knowledge/AI_CG",
     "🏠 主页.md",
