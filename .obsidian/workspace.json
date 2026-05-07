@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "d3150f85d9c50b8a",
+            "id": "2bd58e4991773da9",
             "type": "leaf",
             "state": {
               "type": "webviewer",
@@ -44,36 +44,9 @@
               "icon": "globe-2",
               "title": "GitHub - Forrest-110/FastMAC: Source code of CVPR 2024 paper 'FastMAC: Stochastic Spectral Sampling of Correspondence Graph' · GitHub"
             }
-          },
-          {
-            "id": "c2b7b3cb4abe234a",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/jiahao620/gaussreg",
-                "title": "GitHub - Jiahao620/gaussreg: A project page template for academic papers. Demo at https://eliahuhorwitz.github.io/Academic-project-page-template/ · GitHub",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "GitHub - Jiahao620/gaussreg: A project page template for academic papers. Demo at https://eliahuhorwitz.github.io/Academic-project-page-template/ · GitHub"
-            }
-          },
-          {
-            "id": "8a7a09c902bb9842",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://github.com/mattiaspaul/fastforward",
-                "title": "GitHub - mattiaspaul/fastforward: accepted MIDL 2025 paper on forward splatting for 3D deformable registration new SOTA for PVT1010-COPD · GitHub",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "GitHub - mattiaspaul/fastforward: accepted MIDL 2025 paper on forward splatting for 3D deformable registration new SOTA for PVT1010-COPD · GitHub"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,7 +229,7 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "12d381d21c72ab10",
+  "active": "2bd58e4991773da9",
   "lastOpenFiles": [
     "Knowledge/AI_CG/2. 空间网格映射与变形转移算法.md",
     "Knowledge/AI_CG/1. 视频动捕开源方案.md",
